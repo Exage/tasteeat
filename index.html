@@ -92,7 +92,7 @@
             <img class="logo" src="assets/images/logo.svg" alt="Taste Eat">
         </div>
 
-        <a href="#reservation" class="btn btn-fill top-bar-btn">Reservation</a>
+        <a href="#book" class="btn btn-fill top-bar-btn" id="scroll-link">Reservation</a>
 
     </div>
 </div>
@@ -114,32 +114,31 @@
                         </div>
 
                         <nav class="header-nav">
-                            <a href="#" class="header-nav-link">Home</a>
-                            <a href="#" class="header-nav-link">About Us</a>
-                            <a href="#" class="header-nav-link">Our Menu</a>
-                            <a href="#" class="header-nav-link">Pages</a>
-                            <a href="#" class="header-nav-link">Blog</a>
-                            <a href="#" class="header-nav-link">Contact Us</a>
+                            <a href="#" class="header-nav-link" id="scroll-link">Home</a>
+                            <a href="#about" class="header-nav-link" id="scroll-link">About Us</a>
+                            <a href="#menu" class="header-nav-link" id="scroll-link">Our Menu</a>
+                            <a href="#blog" class="header-nav-link" id="scroll-link">Blog</a>
+                            <a href="#book" class="header-nav-link" id="scroll-link">Book A Table</a>
                         </nav>
 
 
                         <div class="social header-social">
-                            <a class="social-link" href="#">
+                            <a class="social-link" href="#" target="_blank">
                                 <svg class="social-link-icon">
                                     <use xlink:href="#instagram"></use>
                                 </svg>
                             </a>
-                            <a class="social-link" href="#">
+                            <a class="social-link" href="#" target="_blank">
                                 <svg class="social-link-icon">
                                     <use xlink:href="#facebook"></use>
                                 </svg>
                             </a>
-                            <a class="social-link" href="#">
+                            <a class="social-link" href="#" target="_blank">
                                 <svg class="social-link-icon">
                                     <use xlink:href="#twitter"></use>
                                 </svg>
                             </a>
-                            <a class="social-link" href="#">
+                            <a class="social-link" href="#" target="_blank">
                                 <svg class="social-link-icon">
                                     <use xlink:href="#pinterest"></use>
                                 </svg>
@@ -163,7 +162,7 @@
             <p class="common-text intro-main-text">
                 The people, food and the prime locations make the perfect place good friends & family to come together and have great time.
             </p>
-            <a href="#" class="btn intro-main-btn">
+            <a href="#menu" class="btn intro-main-btn" id="scroll-link">
                 View Menu
             </a>
         </div>
@@ -235,7 +234,7 @@
     </div>
 </div> 
         <div class="container">
-    <div class="about">
+    <div class="about" id="about">
         <div class="about-photo">
             <img src="assets/images/about/bg.png" alt="">
         </div>
@@ -282,7 +281,7 @@
     </div>
 </div> 
         <div class="container">
-    <div class="menu">
+    <div class="menu" id="menu">
 
         <div class="menu-header">
             <div class="block-title common-block-title">
@@ -292,7 +291,7 @@
         <div class="menu-body">
             <div class="menu-info">
 
-                <h1 class="common-title menu-info-title">
+                <h1 class="menu-info-title common-title">
                     Try Our Special dishes
                 </h1>
                 <p class="common-text menu-info-text">
@@ -761,7 +760,7 @@
     </div>
 </div>
         <div class="container">
-    <div class="blog">
+    <div class="blog" id="blog">
 
         <div class="blog-header">
             <div class="offers-header-block-title common-block-title">
@@ -834,6 +833,117 @@
 
     </div>
 </div>
+        <div class="book" id="book">
+    <div class="container">
+
+        <div class="book-inner">
+
+            <div class="book-header">
+                <div class="book-header-block-title common-block-title">
+                    reservation
+                </div>
+                <h1 class="book-header-title common-title">
+                    Book Your Table
+                </h1>
+            </div>
+
+            <div class="book-body">
+                <form action="/" class="book-body-form">
+                    <div class="book-body-form-row">
+                        <input placeholder="Name" type="text" class="book-body-form-input input">
+                        <input placeholder="Email" type="email" class="book-body-form-input input">
+                    </div>
+                    <div class="book-body-form-row">
+                        <input placeholder="Persons" type="number" class="book-body-form-input input">
+                        <input placeholder="Timing" data-swaptype="time" type="text" class="book-body-form-input input">
+                        <input placeholder="Date" data-swaptype="date" type="text" class="book-body-form-input input">
+                    </div>
+                    <button type="submit" class="book-body-form-btn btn btn-fill btn-fill-white">Book A Table</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+        <footer class="footer">
+    <div class="container">
+
+        <div class="footer-top">
+
+            <div class="footer-text common-text">
+                #TheTastEat
+            </div>
+
+            <div class="logo-wrapper">
+                <img class="logo" src="assets/images/logo.svg" alt="Taste Eat">
+            </div>
+
+            <div class="social">
+                <a class="social-link" href="#" target="_blank">
+                    <svg class="social-link-icon">
+                        <use xlink:href="#instagram"></use>
+                    </svg>
+                </a>
+                <a class="social-link" href="#" target="_blank">
+                    <svg class="social-link-icon">
+                        <use xlink:href="#facebook"></use>
+                    </svg>
+                </a>
+                <a class="social-link" href="#" target="_blank">
+                    <svg class="social-link-icon">
+                        <use xlink:href="#twitter"></use>
+                    </svg>
+                </a>
+                <a class="social-link" href="#" target="_blank">
+                    <svg class="social-link-icon">
+                        <use xlink:href="#pinterest"></use>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer-body">
+            <div class="footer-body-column">
+                <div class="footer-body-column-title common-block-title">Contact</div>
+                <a href="https://maps.app.goo.gl/eezNct8VdN7CA5VG6" class="footer-text common-text" target="_blank">5 Rue Dalou, 75015 Paris</a>
+                <a href="tel:+123456789" class="common-text common-text-yellow">+123 456 789</a>
+                <a href="mailto:josefin@mail.com" class="common-text common-text-yellow">josefin@mail.com</a>
+            </div>
+            <div class="footer-body-column">
+                <p class="footer-subscribe-text footer-text common-text">
+                    Join our mailing list for updates, <br> Get news & offers events.
+                </p>
+                <div class="footer-subscribe">
+                    <input placeholder="Email" type="email" class="footer-subscribe-input input">
+                    <button class="footer-subscribe-btn btn btn-fill btn-fill-white">Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-body-column">
+                <div class="footer-body-column-title common-block-title">Working Hours</div>
+                <div class="footer-text common-text">
+                    <span class="common-text-yellow">Mon – Fri:</span> 7.00am – 6.00pm
+                </div>
+                <div class="footer-text common-text">
+                    <span class="common-text-yellow">Sat:</span> 7.00am – 6.00pm
+                </div>
+                <div class="footer-text common-text">
+                    <span class="common-text-yellow">Sun:</span> 7.00am – 6.00pm
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <span class="footer-text common-text">
+                &copy; Copyright - 2022
+            </span>
+        </div>
+    </div>
+</footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
